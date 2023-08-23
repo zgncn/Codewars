@@ -1,0 +1,14 @@
+"""
+#  name                price  expected
+    (('Jeong-Ho Aristotelis',  ),   600),
+    (('Abishai Charalampos',   ),   570),
+    (('Idwal Augustin',        ),   420),
+    (('Hadufuns John',       20),   260),
+    (('Zoroaster Donnchadh',   ),   570),
+"""
+
+def billboard(name, price=30):
+    list=[]
+    for i in name:
+        list.append(price)
+    return sum(list)
