@@ -1,0 +1,13 @@
+def distinct(seq):
+    empty=[]
+    for i in seq:
+        if i not in empty:
+            empty.append(i)
+    return empty
+
+
+"""
+Input -> Output
+[1, 1, 2] -> [1, 2]
+[1, 2, 1, 1, 3, 2] -> [1, 2, 3]
+"""
