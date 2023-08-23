@@ -1,0 +1,22 @@
+"""
+with size 4 should return : '1010'.
+with size 12 should return : '101010101010'.
+
+
+"""
+def stringy(size):
+    empty=""
+    if size%2!=0:
+        for i in range(int((size+1)/2)):
+            empty=empty+"10"
+
+        return empty[:-1]
+
+    else:
+        for i in range(int((size+1)/2)):
+            empty=empty+"10"
+        return empty
+
+print(stringy(5))
+print(stringy(4))
+print(stringy(12))
