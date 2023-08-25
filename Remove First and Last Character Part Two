@@ -1,0 +1,17 @@
+"""
+"1,2,3"      =>  "2"
+"1,2,3,4"    =>  "2 3"
+"1,2,3,4,5"  =>  "2 3 4"
+
+""     =>  NULL
+"1"    =>  NULL
+"1,2"  =>  NULL
+"""
+
+def array(string):
+    sequences =string.split(",")
+    if len(sequences )<3:
+        return None
+    sequences =sequences[1:-1]
+    result=" ".join(sequences)
+    return result
