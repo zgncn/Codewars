@@ -1,0 +1,10 @@
+def two_highest(arg1):
+  empty=[]
+  for i in arg1:
+    if i in empty:
+      continue
+    else:
+      empty.append(i)
+  empty=sorted(empty)
+  empty=empty[-2:]
+  return empty[::-1]
