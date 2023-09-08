@@ -1,0 +1,6 @@
+def add_length(str_):
+  a=str_.split()
+  empty=[]
+  for i in a:
+    empty.append(i+" "+str(len(i)))
+  return empty
