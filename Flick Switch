@@ -1,0 +1,8 @@
+def flick_switch(lst):
+    empty=[]
+    switch=True
+    for i in lst:
+      if i=="flick":
+        switch=not switch
+      empty.append(switch)
+    return empty
