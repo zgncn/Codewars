@@ -1,0 +1,5 @@
+def pipe_fix(nums):
+  empty=[]
+  for i in range(nums[0],nums[-1]+1):
+    empty.append(i)
+  return empty
