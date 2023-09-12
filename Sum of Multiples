@@ -1,0 +1,7 @@
+def sum_mul(n, m):
+    sum=0
+    if n<1 or m<1:
+      return "INVALID"
+    for i in range(n,m,n):
+      sum=sum+i
+    return sum
