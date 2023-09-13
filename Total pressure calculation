@@ -1,0 +1,9 @@
+def solution(molar_mass1, molar_mass2, given_mass1, given_mass2, volume, temp) :
+    a=given_mass1/molar_mass1
+    b=given_mass2/molar_mass2
+    temp=273.15+temp
+    p1=(a*0.082*temp)/volume
+    p2=(b*0.082*temp)/volume
+    ptotal=p1+p2
+    return ptotal
+    
