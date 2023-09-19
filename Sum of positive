@@ -1,0 +1,9 @@
+def positive_sum(arr):
+    sum=0
+    if not arr or all(x < 0 for x in arr):
+        return 0
+    else:
+      for i in arr:
+        if i>0:
+          sum=sum+i
+      return sum
