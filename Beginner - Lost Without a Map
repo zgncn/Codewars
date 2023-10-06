@@ -1,0 +1,5 @@
+def maps(a):
+  empty=[]
+  for i in a:
+    empty.append(i*2)
+  return empty
