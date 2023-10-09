@@ -1,0 +1,6 @@
+def excluding_vat_price(price):
+    if price==None:
+        return -1
+    else:
+        x=(price/115)*100
+        return float("{:.2f}".format(x))
